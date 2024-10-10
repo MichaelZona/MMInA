@@ -6,23 +6,10 @@
 </p> -->
 
 
-<p align="center">
-<a href="https://mmina.cliangyu.com/">Project Page</a> |
-<a href="https://arxiv.org/abs/2404.09992">Paper</a> |
-<a href="https://drive.google.com/file/d/1QBSxTXG3_RXhlUEyWQikqyOEit4deDj6/view?usp=drive_link">Dataset</a>
-</p>
 
 ![Overview](media/teaser.png)
 
 
-## News
-* [04/15/2024] Release the paper and the codebase of MMInA.
-
-## Release Plan
-
-- [ ] More data subsets for multihop tasks
-- [ ] Enhanced arguments design for one-stop usage of MMInA
-- [x] Paper, codebase, and dataset release
 
 ## Installation
 ### Prerequisites
@@ -130,17 +117,6 @@ llm_config.gen_config["stop_token"] = args.stop_token
 llm_config.gen_config["max_obs_length"] = args.max_obs_length   
 ```
 
-## Citation
-If you use our environment or data, please cite our paper:
-```
-@misc{zhang2024mmina,
-      title={MMInA: Benchmarking Multihop Multimodal Internet Agents}, 
-      author={Ziniu Zhang and Shulin Tian and Liangyu Chen and Ziwei Liu},
-      year={2024},
-      eprint={2404.09992},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
 ```
 
 ## Acknowledgement
